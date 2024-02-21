@@ -1,0 +1,153 @@
+#wpwrap {
+	background-size:cover;
+	height:100%;
+}
+
+#adminmenuwrap {
+	height:100%;
+}
+
+.al-wrap {
+	margin:50px auto 0;
+	width:833px;
+}
+
+.al-wrap #logo {
+	width:100%;
+	height:80px;
+	margin:30px 0;
+}
+
+.al-container {
+	width: 833px;
+}
+.al-container > div {
+	float: left;
+	margin: 0 5px;
+	width: 400px;
+}
+
+.connect-box,.advice-box,.promo-box {
+	background-color:#FFF;
+	border-radius:5px;
+	border:1px solid #D5D5D5;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+.connect-box {
+	padding:15px 20px;
+}
+
+.advice-box {
+	height:199px;
+	opacity:.8;
+	cursor:pointer;
+}
+
+.promo-box {
+	width: 400px;
+	height: 460px;
+}
+
+.advice-box:hover {
+	opacity:1;
+}
+
+.form-title {
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+.advice-box img {
+	width:100%;
+	height:auto;
+}
+
+input[type=text],select,input[type=password],input[type=date],input[type=datetime],input[type=datetime-local],input[type=month],input[type=week],input[type=email],input[type=number],input[type=search],input[type=tel],input[type=time],input[type=url],textarea {
+	background-color:#fff;
+	font-family:inherit;
+	border:rgba(0,0,0,.3) 2px solid;
+	color:rgba(0,0,0,0.75);
+	display:block;
+	font-size:22px;
+	margin:0 0 .5em;
+	padding:.5em .6em;
+	height:2.3125em;
+	width:100%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-transition:all .15s linear;
+	-moz-transition:all .15s linear;
+	transition:all .15s linear;
+	min-height:50px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+textarea.resize {
+	resize:none;
+	min-height:100px;
+}
+
+input[type=text]:focus,select,input[type=password]:focus,input[type=date]:focus,input[type=datetime]:focus,input[type=datetime-local]:focus,input[type=month]:focus,input[type=week]:focus,input[type=email]:focus,input[type=number]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=time]:focus,input[type=url]:focus,textarea:focus {
+	border:#242424 2px solid;
+	color:#242424;
+	outline:none;
+}
+
+input[type=text][disabled],select[disabled],input[type=password][disabled],input[type=date][disabled],input[type=datetime][disabled],input[type=datetime-local][disabled],input[type=month][disabled],input[type=week][disabled],input[type=email][disabled],input[type=number][disabled],input[type=search][disabled],input[type=tel][disabled],input[type=time][disabled],input[type=url][disabled],textarea[disabled] {
+	background-color:#ddd;
+}
+
+select {
+	cursor:pointer;
+}
+
+input[type=button],input[type=submit],input[type=reset],.button-style {
+	padding:5px 15px;
+	margin:3px 0;
+	border:0;
+	background-color:#c0392b;
+	cursor:pointer;
+	color:#fff;
+	font-weight:700;
+	-webkit-transition:all .15s linear;
+	-moz-transition:all .15s linear;
+	transition:all .15s linear;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	font-size: 16px;
+}
+.button-style.secondary {
+	background-color:#9e9799;
+}
+
+.errormessage {
+	color:#fff;
+	background:#F57946;
+	text-align:center;
+	font-size:14px;
+	width:95%;
+	padding:15px 10px;
+	margin:10px auto;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	overflow:hidden;
+}
+@media (max-width: 1024px) {
+.al-wrap {
+	width:402px;
+}
+.al-container {
+	width: 402px;
+}
+.al-container > div {
+	float: none;
+	margin: 0;
+}
+.promo-box {
+	margin-bottom: 10px!important;
+}
+}

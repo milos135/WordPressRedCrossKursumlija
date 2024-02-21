@@ -1,0 +1,106 @@
+.af-widget-wrap {
+	padding: 10px 0px 10px 0;
+	overflow: hidden;
+	position: relative;
+	min-height: 115px;
+}
+.af-widget-wrap img {
+	-webkit-box-shadow: none;
+      -moz-box-shadow: none;
+           box-shadow: none;
+    border: 0;
+}
+.af-widget-wrap .af-app-icon img {
+	border-radius: 23.1%;
+	-webkit-border-radius: 23.1%;
+	border: 1px #d4d4d4 solid;
+}
+.af-widget-wrap .af-meta-box .af-credit {
+	position: absolute;
+	color: #7f7f7f;
+	font-size: 11px;
+	background-color: #ececec;
+	padding: 4px 8px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+.af-widget-wrap .af-meta-box img.af-app-store-button:hover {
+	opacity: 0.8;
+}
+
+/* SMALL */
+.af-widget-wrap#af-small .af-app-icon {
+	max-width: 90px;
+	width: 33%;
+	padding-right: 10px;
+	float: left;
+}
+.af-widget-wrap#af-small .af-app-icon img {
+	width: auto;
+	height: auto;
+}
+.af-widget-wrap#af-small .af-meta-box {
+	width: 60%;
+	float: left;
+}
+.af-widget-wrap#af-small .af-meta-box h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 3px;
+}
+.af-widget-wrap#af-small .af-meta-box p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 16px;
+}
+.af-widget-wrap#af-small .af-meta-box.af-single img.af-app-store-button {
+	width: 100px;
+	height: 31px;
+}
+.af-widget-wrap#af-small .af-meta-box.af-dual img.af-app-store-button {
+	width: 85px;
+	height: 27px;
+}
+
+
+
+
+/* BIG */
+.af-widget-wrap#af-big .af-app-icon {
+	width: 100%;
+	text-align: center;
+}
+.af-widget-wrap#af-big .af-app-icon img {
+	width: 90px;
+	height: 90px;
+}
+.af-widget-wrap#af-big .af-meta-box {
+	width: 100%;
+	text-align: center;
+}
+.af-widget-wrap#af-big .af-meta-box h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 8px 0 3px 0;
+}
+.af-widget-wrap#af-big .af-meta-box p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 16px;
+}
+.af-widget-wrap#af-big .af-meta-box a {
+	display: block;
+}
+.af-widget-wrap#af-big .af-meta-box img.af-app-store-button {
+	width: 130px;
+	height: 40px;
+}
+

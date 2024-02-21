@@ -1,0 +1,136 @@
+.af-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width:      100%;
+  height:     100%;
+  z-index:    999999;
+  top:        0;
+  left:       0;
+  position:   fixed;
+}
+.af-overlay * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.af-overlay .af-window-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.af-window {
+	position: absolute;
+	bottom: 0;
+	height: 125vw;
+	max-height: 90%;
+	width: 100%;
+	background-color: #fff;
+}
+.af-window .af-window-header {
+	position: relative;
+	height: 85%;
+	background-color: #F1F1F1;
+	text-align: center;
+	overflow: hidden;
+}
+.af-window .af-window-header .af-device {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55%;
+	max-height: 402px;
+	background: url(../img/iPhone.svg) no-repeat center top;
+}
+.af-window .af-window-header .af-device > img {
+	width: 212px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.af-window .af-window-header h2 {
+	font-size: 28px;
+	color: #111111;
+	max-width: 60%;
+	margin: 6% auto 3% auto;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.af-window .af-window-header p {
+	font-size: 14px;
+	color: #797979;
+	line-height: 20px;
+	max-width: 55%;
+	margin: 4% auto;
+	font-weight: normal;
+}
+@media (max-width: 320px) {
+.af-window .af-window-header .af-device {
+	height: 50%;
+}
+}
+
+.af-window .af-window-bar {
+	overflow: hidden;
+	height: 15%;
+	padding: 0 1.5%;
+}
+.af-window .af-window-bar .af-button {
+	border-radius: 3px;
+	float: left;
+	margin: 3% 1.5%;
+}
+.af-window .af-window-bar .af-button.seg {
+	border: 1px solid #979797;
+	font-size: 10px;
+	color: #797979;
+	line-height: 2vh;
+	width: 34%;
+	text-align: right;
+	padding: 3% 3%;
+}
+.af-window .af-window-bar .af-button.prim {
+	border: 1px solid #00CD6F;
+	background: #00CD6F;
+	font-size: 12px;
+	line-height: 4vh;
+	color: #fff;
+	width: 60%;
+	text-align: center;
+	padding: 3% 3%;
+}
+@media (min-width: 768px) {
+.af-window {
+	height: 600px;
+	width: 450px;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.af-window .af-window-header h2 {
+	margin: 12% auto 3% auto;
+}
+.af-overlay .af-window-close {
+	top: 15px;
+	right: 15px;
+}
+.af-window .af-window-header {
+	height: 510px;
+}
+.af-window .af-window-bar {
+	height: 90px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background: #fff;
+}
+.af-window .af-window-bar .af-button {
+	height: 60px;
+	margin: 15px 1.5%;
+}
+.af-window .af-window-bar .af-button.seg {
+	line-height: 1.5;
+}
+.af-window .af-window-bar .af-button.prim {
+	line-height: 2.5;
+}
+}
